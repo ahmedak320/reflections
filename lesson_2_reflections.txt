@@ -1,0 +1,18 @@
+1- What happens when you initialize a repository? Why do you need to do it?
+
+	A file called .git would be created when you initialize a respository using
+	git init. This file will not create a commit or add the files in the directory
+	to the repository. If we did not do it, a repository would not be created and
+	no commits would be saved and version control would not be implemented.
+
+2- How is the staging area different from the working directory and the repository? 
+   What value do you think it offers?
+   
+   The staging area contains the files that will be saved if a commit was commanded.
+   The working directory contains all files, even files that are not being tracked
+   by the repository. This allows for smaller sizes of the repository since it will
+   only include the files that I think are related to the project. No need to keep
+   track of a file that is complete and will not be changed for the rest of the 
+   development. The repository contains the saved versions that we commited.
+   
+3-    
