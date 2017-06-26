@@ -1,0 +1,66 @@
+1-
+Using FC "File Compare" helped by reducing the number of lines
+that I had to look through while looking for differences between
+the two files. It helped me locate the issue a lot faster than it
+would have if I was looking through the original files myself.
+
+2-
+Having access to the entire history can help with comparisons between
+old versions to see which method worked better to make something work.
+It also allows for us to delete things and keep going with the path of
+coding new files and methods and not worry about losing any information.
+We can always go back and get that method if it turned out that we need
+it.
+
+3-
+Manually adding commits on git will be useful because you yourself can 
+decide when is a good time to save and the versions you save will make
+a lot more sense than an automatic save feature. The cons would be that
+there might be changes or versions that I might not decide to save thinking
+I am on a roll. That always leads to regret of not saving and a lot of time
+wasted looking for issues that could be averted of a commit was saved at the
+right time or stage.
+
+4-
+Saving multiple files in a commit is good because some changes made cannot
+produce a stable version unless corresponding changes were made to the other
+files. Those files could contain functions and libraries that are used in the
+project. As for google docs, each file is independent of the other files. There
+cannot be a link between the two files as far as I know.
+
+5-
+We can use git log by simply going to the directory where the repository is
+then typing git log in bit bash. We can use the arrows to scroll down and up.
+As for git diff, we simply get the commit number from the log of whichever 
+versions we want to compare. Write git diff, then followed by the commit numbers.
+This shows lines that are different between the two files. Green are lines added
+and red are lines removed. In git diff, we need to first put the commit number of
+the previous version, then the new version.
+
+6-
+Making changes that could break the code or ruin a feature is no issue anymore.
+I can handle those changes with confidence considering that I have a solid 
+backup that would come to the rescue. I can always just check the backup versions
+and find out when the problem was introduced and easily find the problem in the code.
+
+7-
+I am hoping to use Git for version control of any type of software I will be
+working on. Also it looks clean enough for me to try and use it for simple 
+coding projects that I could be working on or library creation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
