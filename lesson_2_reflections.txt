@@ -15,4 +15,55 @@
    track of a file that is complete and will not be changed for the rest of the 
    development. The repository contains the saved versions that we commited.
    
-3-    
+3- How can you use the staging area to make sure you have one commit per logical change?
+
+	Whenever I reach a point that can be committed. First, I will move it to the
+	staging area. Then use git diff --staged to compare between it and the committed
+	version available. If the change felt too small, I can make more changes and
+	check those new changes compared to the staging area using git diff. Once I have
+	a good change that can be committed, I can commit after comparing it using the 
+	staging area. Also, if I was too excited about a change that I was doing, I
+	could add the file to the staging area once I reach a logical change and 
+	continue with the work without a big stop.
+	
+4- What are some situations when branches would be helpful in keeping your history 
+   organized? How would branches help?
+   
+   Branches would be very helpful when we will be creating two different paths of
+   the software to match the needs of different users. An easy mode version is one
+   thing that we can do, or a version that is less general for a specific customer.
+   Also, it can be very helpful in organizing experimental functions that we can
+   explore. It also allows the merge of those versions together if the change did
+   work out and no issues were added to the program. One more thing, it allows for
+   the workers to be divided into two teams, one exploring new things and one fixing
+   bugs in the original software.
+
+5- How do the diagrams help you visualize the branch structure?
+
+	The diagrams show us visually the commits on each branch and when they get
+	separated into branches. They also show what changes were made on each
+	branch and what can and cant be reached between the commits on each branch.
+	
+6- What is the result of merging two branches together? Why do we represent
+   it in the diagram the way we do?
+   
+   The result is a single program that contains both features from the branches.
+   It contains all the changes made in both branches, as well as the history.
+   We represent merges that way because it helps in showing the previous changes
+   made in each branch and the point where they joined together. This also helps
+   us with looking at which commits are coming from which branch instead of getting
+   confused with different order since the timestamp is used for the new order in
+   the merged branch.
+
+7- What are the pros and cons of Git’s automatic merging vs. 
+   always doing merges manually?
+   
+   Git's automatic merging is very convenient since it saves time with the 
+   comparison between the files. Git looks for the differences and makes decisions
+   regarding any conflict in that area. It also asks for help if a decision cannot
+   be made regarding the changes in a certain area, while marking the area of concern.
+   Cons could be that it could merge two parts of the code that may seem different
+   but have the same function since they could be in different areas of the code.
+   It also could cause big issues since merging is not that simple of a task. 
+   The changes would need to be small enough to allow git to merge correctly. Having
+   merge add a big chunk of code together could result in a lot of issues.
